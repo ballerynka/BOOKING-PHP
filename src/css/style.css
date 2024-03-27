@@ -35,7 +35,7 @@ align-items: center;
 }
 ul li{
     width: 30%;
-    min-height: 500px;
+    height: 800px;
 }
 h2{
 vertical-align: middle;
