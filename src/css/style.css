@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(20, 63, 78);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav {
+    padding: 30px 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(155, 4, 72);
+    }
+nav a.active{
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   list-style: none;
+   margin:50px auto;
+   padding: 0 50px;
+align-items: center;
+
+}
+ul li{
+    width: 30%;
+    min-height: 500px;
+}
+h2{
+vertical-align: middle;
+position: relative;
+}
+img{
+    vertical-align: middle;
+}
+
+.offer{
+    width: 80px;
+    position: absolute;
+    top: -20px;
+right: 30px;
+
+}
+
+div{
+    font-size: 20px;
+margin: 20px 0;
+}
+
+.description{
+    min-height: 200px;
+    text-align: left;
+}
