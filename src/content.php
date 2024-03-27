@@ -1,3 +1,0 @@
-<section>
-    MAIN PAGE
-</section>
