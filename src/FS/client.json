@@ -1,0 +1,8 @@
+{
+    "name": "John Doe",
+    "email": "jd@gmail.net",
+    "age": 30,
+    "active": true,
+    "visited":["Paris", "Rome"]
+
+}
