@@ -1,4 +1,37 @@
-<?include 'data.php';?>
+<?
+//  $file = fopen("./data/tours.json", "r");
+//  $tours = json_decode(fread($file,1000000), true);
+//  fclose($file);
+
+//  require "data.php"
+
+
+$tours = load('tours');
+
+
+
+// if(isset($_POST['search'])){
+//    $tours = array_filter($tours, function ($tour){
+//       return similar_text($tour['name'], $_POST['search']) >= 3;
+//    });
+// 
+// }
+
+
+
+
+
+?>
+<section>
+
+<!-- FILTERS -->
+
+<form action="/?page=tours" method="post">
+<input name="search" type="text" placeholder="enter keywords ...">
+<button>SEARCH</button>
+</form>
+
+
 
 <ul>
    <? for($i=0; $i <count($tours); $i++){?>
@@ -16,3 +49,5 @@
 
 <?}?>
 </ul>
+
+</section>
