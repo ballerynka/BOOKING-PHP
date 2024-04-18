@@ -62,3 +62,10 @@ margin: 20px 0;
     min-height: 200px;
     text-align: left;
 }
+input,button{
+    padding: 10px;
+    margin-top: 50px;
+}
+fieldset{
+    border: none;
+}
